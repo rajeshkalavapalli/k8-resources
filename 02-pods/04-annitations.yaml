@@ -6,7 +6,7 @@ metadata:
     course: Devops
     trainner: rajesh
   annotation:
-    com.roboshop.author
+    com.roboshop.author: "120 hours"
 spec:
   containers:
   - name: hello-pod 
