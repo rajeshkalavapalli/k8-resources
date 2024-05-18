@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: annatation
+  name: annotation
   labels:
     course: Devops
     trainner: rajesh
