@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: annotation
+  name: annotations
   labels:
     course: Devops
     trainner: rajesh
-  annotation:
+  annotations:
     com.roboshop.author: "120 hours"
 spec:
   containers:
