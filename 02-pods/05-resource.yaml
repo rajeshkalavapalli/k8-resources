@@ -8,10 +8,10 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
-    resources:  # Corrected from 'resource' to 'resources'
-      requests:  # Corrected from 'request' to 'requests'
+    resources:  
+      requests:  
         cpu: "100m"
-        memory: "68Mi"  # Corrected from '68mi' to '68Mi'
+        memory: "68Mi"  
       limits:
         cpu: "200m"
-        memory: "128Mi"  # Corrected from '128mi' to '128Mi'
+        memory: "128Mi"  
