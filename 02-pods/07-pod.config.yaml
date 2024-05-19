@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: config-pod
+  name: devops-config
   namespace: roboshop
 spec:
   containers:
@@ -13,10 +13,10 @@ spec:
     - name: course
       valueFrom:
         configMapKeyRef:
-          name: config-pod
+          name: devops-config
           key: course
     - name: trainer
       valueFrom:
         configMapKeyRef:
-          name: config-pod
+          name: devops-config
           key: course
