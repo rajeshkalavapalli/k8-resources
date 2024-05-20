@@ -11,14 +11,14 @@ spec:
   selector:
     matchLabels:
       tier: frontend
-       app: nginx
-       tier: frontend
+      app: nginx
+      tier: frontend
   template: # here from pod definition 
     metadata:
       labels:
         tier: frontend
-         app: nginx
-         tier: frontend
+        app: nginx
+        tier: frontend
     spec:
       containers:
       - name: nginx
