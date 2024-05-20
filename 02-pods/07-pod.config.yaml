@@ -18,4 +18,4 @@ spec:
       valueFrom:
         configMapKeyRef:
           name: devops-config
-          key: course
+          key: rajesh 
