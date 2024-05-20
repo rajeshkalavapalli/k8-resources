@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: devops-secret-pod
+  name: devops-secret-pod  
 spec:
   containers:
   - name: hello-pod 
@@ -9,7 +9,5 @@ spec:
     ports:
     - containerPort: 80
     envFrom:
-      secretKeyRef:
-        name: devops-secret
-          
- 
+    - secretRef: 
+        name: devops-secret  
