@@ -56,7 +56,8 @@ spec:
           mountPath: /var/log/nginx
         - name: filebeat-config
           mountPath: /usr/share/filebeat/filebeat.yml
-          subpath: filebet.yml 
+          subpath: filebeat.yml
+          
 
       volumes:
       - name: nginx-logs
